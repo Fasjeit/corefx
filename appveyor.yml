@@ -1,8 +1,6 @@
 # version format
 version: 1.0.{build}
 
-echo build 
-
 # branches to build
 branches:
   # whitelist
