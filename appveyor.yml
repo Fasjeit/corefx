@@ -31,7 +31,7 @@ test: off
 
   
 # runnng specified tests  
-test_script:
+#test_script:
   #- dotnet --info
   #- dotnet msbuild src\\System.Security.Cryptography.Algorithms\\tests /t:BuildAndTest /p:ForceRunTests=true
   #- dotnet msbuild src\\System.Security.Cryptography.Primitives\\tests /t:BuildAndTest /p:ForceRunTests=true
@@ -72,7 +72,7 @@ deploy:
   prerelease: true
   on:
     # release from master branch only
-    branch: master
+  #  branch: master
     APPVEYOR_REPO_TAG: true        # deploy only on tag push
 
 #Start of Windows specific configuration
